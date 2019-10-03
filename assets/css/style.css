@@ -1,0 +1,104 @@
+
+  .header {
+        background-color: #ffffff;
+        height: 50px;
+
+  }
+
+  .footer {
+        background-color: #666666;
+        height: 50px;
+        border-width: 10px;
+        Border-style: solid;
+        border-color: #cccccc;
+  }
+  
+  
+  
+  
+  .myname {
+      background-color: teal;
+      color: white;
+      padding: 25px;
+      margin: 0 0 0 250px;
+      border-style: solid;
+      border-color: #666666;
+      width: 200px;
+      font-family: Georgia;
+     }
+
+  #aboutme {
+      background-color: white;
+      width: 175px;
+      height: 150px;
+      float: left;
+      position: relative;
+      left: 850px;
+      top: -150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Georgia;
+
+
+  }
+
+  #portfolio {
+      background-color: white;
+      width: 175px;
+      height: 150px;
+      float: left;
+      position: relative;
+      left: 850px;
+      top: -150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Georgia;
+
+  }
+
+  #contact {
+      background-color: white;
+      width: 175px;
+      height: 150px;
+      float: left;
+      position: relative;
+      left: 850px;
+      top: -150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Georgia;
+
+  }
+
+  .body {
+      background-color: #dddddd;
+      height: 500px;
+      margin: 0 50px 0 50px;
+  }
+
+#picture {
+      float: left;
+      position: absolute;
+      top: 00px;
+      left: 0px;
+      z-index: 2;
+
+}
+
+#paragraph {
+      background-color: #ffffff;
+      Width: 960px;
+      height: 350px;
+      position: relative;
+      left: 200px;
+      top: 35px;
+      font-family: arial;
+      
+
+     
+
+
+}
