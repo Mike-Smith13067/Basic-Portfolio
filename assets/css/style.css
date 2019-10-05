@@ -78,10 +78,29 @@
       width: 960px;
       font-size: 24px;
       top: 25px;
+      left: 25px;
       
       
    }
 .container{
+    position: relative;
+      background-color: #dddddd;
+      height: 600px;
+      margin: 0 50px 0 50px;
+      top: 25px;
+     
+  }
+
+  .portfolio-container{
+    position: relative;
+      background-color: #dddddd;
+      height: 600px;
+      margin: 0 50px 0 50px;
+      top: 50px;
+     
+  }
+
+  .contact-container{
     position: relative;
       background-color: #dddddd;
       height: 600px;
@@ -97,12 +116,14 @@
       width: 150px;
       height: 150px;
       padding:0px 25px 50px 0px;
+      left: 25px;
     }
 
 #paragraph {
     position: relative;
       top: 35px;
       width: 800px;
+      left: 25px;
       
 }
 
@@ -111,12 +132,35 @@
       background-color: #ffffff;
       Width: 960px;
       height: 450px;
-      position: relative;
       left: 50%;
       margin-left: -480px;
       top: 50px;
       font-family: arial;
       font-size: 15px;
+
+}
+
+#portfolio-insert {
+    position: relative;
+    background-color: #ffffff;
+    Width: 960px;
+    height: 500px;
+    left: 50%;
+    margin-left: -480px;
+    top: -530px;
+   
+
+}
+
+#contact-insert {
+    position: relative;
+    background-color: #ffffff;
+    Width: 960px;
+    height: 500px;
+    left: 50%;
+    margin-left: -480px;
+    top: 30px;
+   
 
 }
       
@@ -138,5 +182,33 @@
     width: 150px;
     height: 150px;
     padding:0px 25px 50px 0px;
+    left: 25px;
 }
 
+.books {
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding:0px 25px 50px 0px;
+}
+
+.dallas {
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding:0px 25px 50px 0px;
+}
+
+.alison {
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding:0px 25px 50px 0px;
+}
+
+.jeep {
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding:0px 25px 50px 0px;
+}
