@@ -5,39 +5,94 @@
 
   }
 
+  section {
+      position: relative;
+      width: 100%;
+      height: 100px;
+
+  }
+
+  nav {
+      position: relative;
+      width: 100%;
+      height: 50px;
+
+  }
+
+  body{
+      position: relative;
+      top: 0px;
+  }
+
 .myname {
       background-color: teal;
       color: white;
       padding: 25px;
-      margin: 0 0 -25px 250px;
-      border-style: solid;
-      border-color: #666666;
       width: 200px;
       font-family: Georgia;
       text-align: center;
       font-weight: bold;
       font-size: 24px;
+      position: absolute;
+      left: 50%;
+      bottom: -50px;
+      margin-top: 200px;
+      margin-left: -485px;
+     
+
+      
+     }
+
+     #about {
+         position: absolute;
+         left: 50%;
+         bottom: -10px;
+         margin-top: 200px;
+         margin-left: 250px;
+
+     }
+     #portfolio{
+        position: absolute;
+         left: 50%;
+         bottom: -10px;
+         margin-top: 200px;
+         margin-left: 325px;
+     }
+
+     #contact{
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        margin-top: 200px;
+        margin-left: 400px;
      }
 
 
 
 #aboutme {
+      position: relative;
+      font-family: Georgia;
+      font-weight: bold;
+      font-size: 24px;
       height: 100px;
       width: 960px;
       font-size: 24px;
-      margin: 50px 0 0 25px;
-      border-bottom: 10px black;
+      top: 25px;
+      
       
    }
 .container{
+    position: relative;
       background-color: #dddddd;
       height: 600px;
       margin: 0 50px 0 50px;
-      top: -50px;
+      top: 25px;
+     
   }
 
 .mypic {
-
+      position: relative;
+      top: 35px;
       float: left;
       width: 150px;
       height: 150px;
@@ -45,13 +100,21 @@
     }
 
 #paragraph {
+    position: relative;
+      top: 35px;
+      width: 800px;
+      
+}
 
+#insert {
+      position: relative;
       background-color: #ffffff;
       Width: 960px;
       height: 450px;
       position: relative;
-      left: 200px;
-      top: 35px;
+      left: 50%;
+      margin-left: -480px;
+      top: 50px;
       font-family: arial;
       font-size: 15px;
 
@@ -69,31 +132,7 @@
 
   }  
 
-#nav-list ul {
-        list-style-type:none;
-        text-align: center;
-        float: right;
-       
-        
-        
-}
-#nav-list ul li {
-        display: inline
-        
 
-}
-
-#nav-list ul li a {
-        font-weight: bold;
-        color: grey;
-        padding: 25px;
-        font-family: Georgia;
-        font-size: 15px;
-}
-
-     #nav-list ul li a.current {
-         text-decoration: none;
-     }
 .pokerhands {
     float: left;
     width: 150px;
