@@ -16,6 +16,28 @@
     top: 150px;
   }
 
+  #contact-footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-top: 8px solid #4aaaa5;
+    position: relative;
+    top: 0px;
+  }
+
+  #portfolio-footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-top: 8px solid #4aaaa5;
+    position: relative;
+    top: -700px;
+  }
+
   section {
       position: relative;
       width: 100%;
