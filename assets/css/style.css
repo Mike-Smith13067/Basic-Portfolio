@@ -179,36 +179,58 @@
 
 .pokerhands {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height:200px;
     padding:0px 25px 50px 0px;
     left: 25px;
 }
 
-.books {
+.book {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding:0px 25px 50px 0px;
 }
 
 .dallas {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding:0px 25px 50px 0px;
 }
 
 .alison {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding:0px 25px 50px 0px;
 }
 
 .jeep {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200x;
+    height: 200px;
     padding:0px 25px 50px 0px;
+}
+
+textarea{
+    height: 200px;
+    width: 97%;
+    border: 2px solid #cccccc;
+}
+
+input[type=email] {
+    position: relative;
+    width:95%;
+    right: -25px;
+    display: inline-block;
+    border: 2px solid #cccccc;
+}
+
+input[type=text] {
+    position: relative;
+    width:95%;
+    right: -25px;
+    display: inline-block;
+    border: 2px solid #cccccc;
 }
